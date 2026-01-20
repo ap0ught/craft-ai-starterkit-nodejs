@@ -18,7 +18,8 @@
     "start": "node src/main.js",
     "prepare_data": "node src/prepare.js",
     "lint": "eslint .",
-    "fix_lint": "eslint --fix ."
+    "fix_lint": "eslint --fix .",
+    "test": "npm run lint"
   },
   "dependencies": {
     "craft-ai": "1.16.0",
@@ -36,6 +37,6 @@
     "eslint-config-craft-ai": "^2.0.0"
   },
   "engines": {
-    "node": "6.9.1"
+    "node": ">=18.0.0"
   }
 }
