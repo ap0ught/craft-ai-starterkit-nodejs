@@ -27,7 +27,7 @@ jobs:
       run: npm ci
     
     - name: Run linter
-      run: npm run lint || echo "Linter failed but continuing..."
+      run: npm run lint
       continue-on-error: true
     
     - name: Run application
